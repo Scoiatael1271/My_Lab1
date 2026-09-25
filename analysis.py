@@ -1,9 +1,3 @@
-"""
-Модуль analysis.py — функции визуализации и анализа данных.
-
-Использует pandas, matplotlib, seaborn и networkx.
-Содержит функции с параметрами, рекурсией и лямбда-выражениями.
-"""
 
 from typing import List, Dict, Tuple, Optional
 from collections import Counter
