@@ -19,7 +19,6 @@
 
  Структура проекта
 
-```
 order_management/
 ├── main.py           # Точка входа
 ├── models.py         # Классы данных (Client, Product, Order и др.)
@@ -42,35 +41,32 @@ order_management/
 
 git clone <url-вашего-репозитория>
 cd order_management
-```
 
-### 2. Создайте виртуальное окружение
+ 2. Создайте виртуальное окружение
 
-**Windows:**
-```bash
+Windows:
+
 python -m venv .venv
 .venv\Scripts\activate
-```
 
-**Linux / macOS:**
-```bash
+
 python3 -m venv .venv
 source .venv/bin/activate
-```
+
 
  3. Установите зависимости
 
 
 pip install -r requirements.txt
-```
+
 
  4. Запустите приложение
 
 
 python main.py
-```
 
-## Как пользоваться
+
+ Как пользоваться
 
 1. **Вкладка «Клиенты»** — введите ФИО, email, телефон и город, нажмите «Добавить клиента».
 2. **Вкладка «Товары»** — введите название, цену и категорию, нажмите «Добавить товар».
@@ -82,9 +78,9 @@ python main.py
  Запуск тестов
 
 python -m unittest discover tests -v
-```
 
-## Используемые технологии
+
+ Используемые технологии
 
 - Python 3.8+
 - tkinter (GUI)
@@ -92,6 +88,3 @@ python -m unittest discover tests -v
 - unittest (тесты)
 - JSON / CSV (хранение и обмен данными)
 
-## Автор
-
-Проект выполнен в рамках итоговой аттестации по Python.
